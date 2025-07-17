@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # This should match the output folder
-          path: '/build'
+          path: 'build/'
 
   deploy:
     needs: build_site
