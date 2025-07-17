@@ -1,6 +1,6 @@
-<main class="flex flex-col justify-center items-start mx-20 gap-4 h-[90dvh]">
+<main class="flex flex-col justify-center items-start gap-4 h-[90dvh] px-10 sm:px-20 mx-auto">
 	<h1 class="text-4xl">About</h1>
-	<section class="flex flex-col gap-2">
+	<section class="flex flex-col gap-4 leading-relaxed text-base sm:text-lg">
 		<p>
 			Hello! I'm Bryan Erang Lawai, also known online as Ignatius Fairlight. I'm a web and mobile application developer with experience in building clean, user-friendly applications using JavaScript with Svelte, HTML, CSS, and Java.
 		</p>
