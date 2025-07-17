@@ -27,9 +27,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build site
+      - name: build
+        env:
+           BASE_PATH: '/ignatiusfairlight.github.io'
         run: |
-          npm run build
+           npm run build
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
