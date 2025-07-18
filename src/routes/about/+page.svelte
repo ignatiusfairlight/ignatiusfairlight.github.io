@@ -11,4 +11,6 @@
 			And yes — I love pizza.
 		</p>
 	</section>
+
+	<!--Add techstack logos here-->
 </main>
