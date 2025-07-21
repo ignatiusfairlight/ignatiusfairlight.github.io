@@ -12,7 +12,7 @@
               <div class="p-1">
                 <Card.Root>
                   <Card.Content
-                    class="flex items-center justify-center p-6"
+                    class="h-[60dvh] flex items-center justify-center p-6"
                   >
                     <span class="text-4xl font-semibold">{i + 1}</span>
                   </Card.Content>
