@@ -2,7 +2,6 @@
 	import '../app.css';
 	import * as NavigationMenu from '$lib/components/ui/navigation-menu/index.js';
 	import * as Drawer from '$lib/components/ui/drawer/index.js';
-	import { Button } from '$lib/components/ui/button/index.js';
 	import { navigationMenuTriggerStyle } from '$lib/components/ui/navigation-menu/navigation-menu-trigger.svelte';
 	import { onNavigate } from '$app/navigation';
 	import { MediaQuery } from 'svelte/reactivity';
@@ -83,4 +82,6 @@
 
 {@render children()}
 
-<!--TODOs:// Add cool background-->
+<footer class="flex flex-col items-center justify-center px-5">
+	<p>© 2025 Bryan Erang Lawai. All Rights Reserved.</p>
+</footer>
