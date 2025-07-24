@@ -5,7 +5,7 @@
 
 <main class="mx-auto flex h-[87dvh] flex-col items-start justify-center gap-4 px-10 sm:px-20">
 	<h1 class="text-4xl">Projects</h1>
-	<Carousel.Root class="w-full">
+	<Carousel.Root class="w-[80%] self-center">
 		<Carousel.Content>
 			<Carousel.Item>
 				<div class="p-1">
@@ -16,15 +16,15 @@
 						<Card.Content>
 							<img alt="x" class="hidden md:block" />
 							<Card.Description
-								>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti labore
-								velit veritatis provident debitis aperiam? Et illum suscipit sint dolor velit
-								maiores repudiandae quos. Hic unde voluptate qui aliquid?</Card.Description
+								>A clean, responsive banking UI built with SvelteKit and Tailwind CSS. Inspired by
+								real-world finance apps, it features account overviews and transaction summaries.
+								Upcoming updates include dark mode, charts, and mock data to simulate a realistic
+								experience.</Card.Description
 							>
 						</Card.Content>
 						<Card.Footer class="flex flex-col items-start justify-center">
-							<a
-								href="#"
-								class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
+							<!-- svelte-ignore a11y_invalid_attribute -->
+							<a href="#" class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
 								>Live Website
 							</a>
 							<a

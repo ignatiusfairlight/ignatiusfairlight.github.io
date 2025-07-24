@@ -85,3 +85,5 @@
 <footer class="flex flex-col items-center justify-center px-5">
 	<p>© 2025 Bryan Erang Lawai. All Rights Reserved.</p>
 </footer>
+
+<!--Add dark mode-->
