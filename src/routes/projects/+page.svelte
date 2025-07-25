@@ -3,9 +3,17 @@
 	import * as Carousel from '$lib/components/ui/carousel/index.js';
 </script>
 
-<main class="mx-auto flex h-[87dvh] flex-col items-start justify-center gap-4 px-10 sm:px-20">
+<main
+	class="mx-auto flex h-[87dvh] flex-col items-start justify-center gap-4 px-10 sm:px-20 md:mx-20"
+>
 	<h1 class="text-4xl">Projects</h1>
-	<Carousel.Root class="w-[80%] self-center">
+	<Carousel.Root
+		class="w-[80%] self-center"
+		opts={{
+			align: 'start',
+			loop: true
+		}}
+	>
 		<Carousel.Content>
 			<Carousel.Item>
 				<div class="p-1">

@@ -1,4 +1,4 @@
-<main class="flex flex-col justify-center items-start gap-4 h-[87dvh] px-10 sm:px-20 mx-auto">
+<main class="flex flex-col justify-center items-start gap-4 h-[87dvh] px-10 sm:px-20 mx-auto md:mx-20">
 	<h1 class="text-4xl">About</h1>
 	<section class="flex flex-col gap-4 leading-relaxed text-base sm:text-lg text-justify">
 		<p>
