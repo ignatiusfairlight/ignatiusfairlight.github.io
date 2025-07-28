@@ -31,8 +31,9 @@
 							>
 						</Card.Content>
 						<Card.Footer class="flex flex-col items-start justify-center">
-							<!-- svelte-ignore a11y_invalid_attribute -->
-							<a href="#" class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
+							<a
+								href="https://ignatiusfairlight.github.io/bank-dashboard-demo/"
+								class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
 								>Live Website
 							</a>
 							<a
@@ -49,14 +50,24 @@
 				<div class="p-1">
 					<Card.Root>
 						<Card.Header>
-							<Card.Title>Project 2</Card.Title>
+							<Card.Title>Event Scheduler</Card.Title>
 						</Card.Header>
 						<Card.Content>
 							<img alt="x" class="hidden md:block" />
 							<Card.Description>Description of Project</Card.Description>
 						</Card.Content>
 						<Card.Footer>
-							<p>Github Link</p>
+							<a
+								href="https://ignatiusfairlight.github.io/scheduler-demo/"
+								class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
+								>Live Website
+							</a>
+							<a
+								href="https://github.com/ignatiusfairlight/scheduler-demo"
+								target="black"
+								class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
+								>Github Link</a
+							>
 						</Card.Footer>
 					</Card.Root>
 				</div>
