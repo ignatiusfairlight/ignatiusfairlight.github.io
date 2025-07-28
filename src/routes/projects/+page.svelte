@@ -33,6 +33,7 @@
 						<Card.Footer class="flex flex-col items-start justify-center">
 							<a
 								href="https://ignatiusfairlight.github.io/bank-dashboard-demo/"
+								target="_blank"
 								class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
 								>Live Website
 							</a>
@@ -62,15 +63,16 @@
 								authentication.</Card.Description
 							>
 						</Card.Content>
-						<Card.Footer>
+						<Card.Footer class="flex flex-col items-start justify-center">
 							<a
 								href="https://ignatiusfairlight.github.io/scheduler-demo/"
+								target="_blank"
 								class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
 								>Live Website
 							</a>
 							<a
 								href="https://github.com/ignatiusfairlight/scheduler-demo"
-								target="black"
+								target="_blank"
 								class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
 								>Github Link</a
 							>
