@@ -30,11 +30,11 @@
 								experience.</Card.Description
 							>
 						</Card.Content>
-						<Card.Footer class="flex flex-col items-start justify-center">
+						<Card.Footer class="grid grid-cols-2 gap-1 items-start justify-center">
 							<a
 								href="https://ignatiusfairlight.github.io/bank-dashboard-demo/"
 								target="_blank"
-								class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
+								class="col-span-2 text-blue-600 underline underline-offset-4 visited:text-purple-600"
 								>Live Website
 							</a>
 							<a
@@ -43,6 +43,7 @@
 								class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
 								>Github Link
 							</a>
+							<p class="text-right self-center">Status: In progress</p>
 						</Card.Footer>
 					</Card.Root>
 				</div>
@@ -63,11 +64,11 @@
 								authentication.</Card.Description
 							>
 						</Card.Content>
-						<Card.Footer class="flex flex-col items-start justify-center">
+						<Card.Footer class="grid grid-cols-2 gap-1 items-start justify-center">
 							<a
 								href="https://ignatiusfairlight.github.io/scheduler-demo/"
 								target="_blank"
-								class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
+								class="col-span-2 text-blue-600 underline underline-offset-4 visited:text-purple-600"
 								>Live Website
 							</a>
 							<a
@@ -76,6 +77,7 @@
 								class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
 								>Github Link
 							</a>
+							<p class="text-right self-center">Status: In progress</p>
 						</Card.Footer>
 					</Card.Root>
 				</div>
