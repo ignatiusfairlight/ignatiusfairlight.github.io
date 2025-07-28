@@ -74,8 +74,8 @@
 								href="https://github.com/ignatiusfairlight/scheduler-demo"
 								target="_blank"
 								class="text-blue-600 underline underline-offset-4 visited:text-purple-600"
-								>Github Link</a
-							>
+								>Github Link
+							</a>
 						</Card.Footer>
 					</Card.Root>
 				</div>
