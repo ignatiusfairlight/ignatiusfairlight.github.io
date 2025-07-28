@@ -54,7 +54,13 @@
 						</Card.Header>
 						<Card.Content>
 							<img alt="x" class="hidden md:block" />
-							<Card.Description>Description of Project</Card.Description>
+							<Card.Description
+								>A responsive event management web app built with SvelteKit, Tailwind CSS, and
+								shadcn-svelte, featuring an interactive calendar and a sortable, filterable data
+								table. Users can organize events by date, name, or location. Core functionality is
+								complete, with planned improvements including mobile responsiveness and user
+								authentication.</Card.Description
+							>
 						</Card.Content>
 						<Card.Footer>
 							<a
