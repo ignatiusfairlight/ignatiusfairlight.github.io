@@ -6,6 +6,8 @@
 	import { onNavigate } from '$app/navigation';
 	import { MediaQuery } from 'svelte/reactivity';
 	import DrawerClose from '$lib/components/ui/drawer/drawer-close.svelte';
+	import { ModeWatcher } from 'mode-watcher';
+	import DarkModeToggleButton from '$lib/components/dark-mode-toggle-button.svelte';
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -55,6 +57,9 @@
 						{/snippet}
 					</NavigationMenu.Link>
 				</NavigationMenu.Item>
+				<NavigationMenu.Item>
+					<DarkModeToggleButton />
+				</NavigationMenu.Item>
 			</NavigationMenu.List>
 		</NavigationMenu.Root>
 	</div>
@@ -80,6 +85,7 @@
 	</div>
 {/if}
 
+<ModeWatcher />
 {@render children()}
 
 <footer class="flex flex-col items-center justify-center px-5">
