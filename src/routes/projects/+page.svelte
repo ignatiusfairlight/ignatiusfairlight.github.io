@@ -78,4 +78,8 @@
 					</Card.Root>
 				</div>
 			</Carousel.Item>
+		</Carousel.Content>
+		<Carousel.Previous class="ml-3 md:ml-0" />
+		<Carousel.Next class="mr-3 md:mr-0" />
+	</Carousel.Root>
 </main>
