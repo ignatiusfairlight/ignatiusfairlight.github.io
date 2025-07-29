@@ -8,6 +8,8 @@
 	import DrawerClose from '$lib/components/ui/drawer/drawer-close.svelte';
 	import { ModeWatcher } from 'mode-watcher';
 	import DarkModeToggleButton from '$lib/components/dark-mode-toggle-button.svelte';
+	import DarkModeToggleSwitch from '$lib/components/dark-mode-toggle-switch.svelte';
+	import { Menu } from '@lucide/svelte';
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -66,8 +68,13 @@
 {:else}
 	<div class="ml-5 pt-5">
 		<Drawer.Root direction="left">
-			<Drawer.Trigger>Menu</Drawer.Trigger>
-			<Drawer.Content class="flex flex-col justify-center items-start gap-10 ml-5">
+			<Drawer.Trigger>
+				<Drawer.Trigger>
+					<span class="sr-only">Menu</span>
+					<Menu />
+				</Drawer.Trigger>
+			</Drawer.Trigger>
+			<Drawer.Content class="ml-5 flex flex-col items-start justify-center gap-10">
 				<Drawer.Close>
 					<a href="./" class={navigationMenuTriggerStyle()}>Home</a>
 				</Drawer.Close>
@@ -80,6 +87,10 @@
 				<Drawer.Close>
 					<a href="contact" class={navigationMenuTriggerStyle()}>Contact</a>
 				</Drawer.Close>
+				<div class="flex items-center justify-between w-[90%] gap-4 py-2">
+					<p class={navigationMenuTriggerStyle()}>Dark Mode</p>
+					<DarkModeToggleSwitch />
+				</div>
 			</Drawer.Content>
 		</Drawer.Root>
 	</div>
