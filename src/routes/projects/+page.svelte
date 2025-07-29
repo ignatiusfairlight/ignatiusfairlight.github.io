@@ -8,7 +8,7 @@
 >
 	<h1 class="text-4xl">Projects</h1>
 	<Carousel.Root
-		class="w-[80%] self-center"
+		class="w-[90%] self-center"
 		opts={{
 			align: 'start',
 			loop: true
@@ -83,7 +83,9 @@
 				</div>
 			</Carousel.Item>
 		</Carousel.Content>
-		<Carousel.Previous class="ml-3 md:ml-0" />
-		<Carousel.Next class="mr-3 md:mr-0" />
+		<div class="hidden lg:block">
+			<Carousel.Previous />
+			<Carousel.Next />
+		</div>
 	</Carousel.Root>
 </main>
