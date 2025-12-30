@@ -40,7 +40,7 @@
 				<NavigationMenu.Item>
 					<NavigationMenu.Link>
 						{#snippet child()}
-							<a href="about" class={navigationMenuTriggerStyle()}>About Me</a>
+							<a href="resume" class={navigationMenuTriggerStyle()}>Resume</a>
 						{/snippet}
 					</NavigationMenu.Link>
 				</NavigationMenu.Item>
