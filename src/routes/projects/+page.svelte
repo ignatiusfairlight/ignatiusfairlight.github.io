@@ -1,21 +1,11 @@
 <script lang="ts">
 	import * as Card from '$lib/components/ui/card/index.js';
-	import * as Carousel from '$lib/components/ui/carousel/index.js';
 </script>
 
 <main
 	class="mx-auto flex h-[87dvh] flex-col items-start justify-center gap-4 px-10 sm:px-20 md:mx-20"
 >
 	<h1 class="text-4xl">Projects</h1>
-	<Carousel.Root
-		class="w-[90%] self-center"
-		opts={{
-			align: 'start',
-			loop: true
-		}}
-	>
-		<Carousel.Content>
-			<Carousel.Item>
 				<div class="p-1">
 					<Card.Root>
 						<Card.Header>
@@ -47,8 +37,6 @@
 						</Card.Footer>
 					</Card.Root>
 				</div>
-			</Carousel.Item>
-			<Carousel.Item>
 				<div class="p-1">
 					<Card.Root>
 						<Card.Header>
@@ -81,11 +69,4 @@
 						</Card.Footer>
 					</Card.Root>
 				</div>
-			</Carousel.Item>
-		</Carousel.Content>
-		<div class="hidden lg:block">
-			<Carousel.Previous />
-			<Carousel.Next />
-		</div>
-	</Carousel.Root>
 </main>
