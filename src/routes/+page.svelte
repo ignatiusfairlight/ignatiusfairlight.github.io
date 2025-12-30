@@ -1,6 +1,5 @@
-<main class="mx-auto flex h-[87dvh] flex-col items-center justify-center">
-	<h1 class="text-4xl">Welcome!</h1>
-	<section class="flex flex-col gap-4 text-justify text-base leading-relaxed sm:text-lg">
+<main class="mx-auto flex h-[80dvh] flex-col items-center justify-center">
+	<section class="flex flex-col px-60 gap-4 text-justify text-base leading-relaxed sm:text-lg">
 		<p>
 			Hello! I'm Bryan Erang Lawai, also known online as Ignatius Fairlight. I'm a web and mobile
 			application developer with experience in building clean, user-friendly applications using
