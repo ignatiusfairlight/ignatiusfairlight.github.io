@@ -78,7 +78,7 @@
 					<a href="./" class={navigationMenuTriggerStyle()}>Home</a>
 				</Drawer.Close>
 				<DrawerClose>
-					<a href="about" class={navigationMenuTriggerStyle()}>About Me</a>
+					<a href="resume" class={navigationMenuTriggerStyle()}>Resume</a>
 				</DrawerClose>
 				<Drawer.Close>
 					<a href="projects" class={navigationMenuTriggerStyle()}>Projects</a>
