@@ -99,5 +99,5 @@
 {@render children()}
 
 <footer class="flex flex-col items-center justify-center px-5">
-	<p>© 2026 Bryan Erang Lawai. All Rights Reserved.</p>
+	<p>© 2026 Ignatius Fairlight. All Rights Reserved.</p>
 </footer>
