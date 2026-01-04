@@ -97,3 +97,7 @@
 
 <ModeWatcher />
 {@render children()}
+
+<footer class="p-5 flex items-center justify-center">
+	© 2026 Bryan Erang Lawai
+</footer>
