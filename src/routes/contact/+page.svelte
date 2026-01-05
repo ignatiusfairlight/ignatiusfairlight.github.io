@@ -1,5 +1,5 @@
 <main
-	class="mx-auto flex h-[86dvh] flex-col items-center justify-center"
+	class="mx-auto flex min-h-[84dvh] flex-col items-center justify-center"
 >
 	<section
 		class="flex flex-col gap-4 px-15 text-justify text-base
