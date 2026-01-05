@@ -3,7 +3,7 @@
 </script>
 
 <main
-	class="mx-auto mt-10 flex h-auto flex-col items-start justify-center gap-4 overflow-y-scroll px-10"
+	class="mx-auto mt-10 flex h-auto flex-col items-start justify-center gap-4 px-10"
 >
 	<section
 		class="flex flex-col

@@ -3,7 +3,7 @@
 </script>
 
 <main
-	class="mx-auto mt-10 flex h-auto flex-col items-start justify-center gap-4 overflow-y-scroll px-10"
+	class="mx-auto mt-10 flex h-auto flex-col items-start justify-center gap-4 px-10"
 >
 	<section
 		class="flex flex-col
@@ -68,6 +68,58 @@
 						<li>
 							Facilitated user survey sessions and live walkthroughs for 10+ participants per
 							session, ensuring accurate data collection.
+						</li>
+					</ul>
+				</Card.Content>
+			</Card.Root>
+		</div>
+		<div class="mb-2">
+			<Card.Root>
+				<Card.Header>
+					<Card.Title class="flex flex-col">
+						<p class="text-lg lg:text-2xl">Intern, Operation Serivces</p>
+						<p class="text-sm lg:text-lg">October 2022 - January 2023</p>
+					</Card.Title>
+				</Card.Header>
+				<Card.Content>
+					<ul class="flex list-disc flex-col gap-2 px-5 text-justify text-sm">
+						<li>
+							Assisted in preparing monthly Value of Work Done (VOWD) reports to support project ROI
+							analysis and resource allocation strategies.
+						</li>
+						<li>
+							Maintained effective communication with supervisors and stakeholders to streamline
+							operational workflows.
+						</li>
+						<li>
+							Documented meeting minutes with precision to ensure accountability and track key
+							decisions across teams.
+						</li>
+					</ul>
+				</Card.Content>
+			</Card.Root>
+		</div>
+		<div class="mb-2">
+			<Card.Root>
+				<Card.Header>
+					<Card.Title class="flex flex-col">
+						<p class="text-lg lg:text-2xl">Intern, Operation Serivces</p>
+						<p class="text-sm lg:text-lg">October 2022 - January 2023</p>
+					</Card.Title>
+				</Card.Header>
+				<Card.Content>
+					<ul class="flex list-disc flex-col gap-2 px-5 text-justify text-sm">
+						<li>
+							Assisted in preparing monthly Value of Work Done (VOWD) reports to support project ROI
+							analysis and resource allocation strategies.
+						</li>
+						<li>
+							Maintained effective communication with supervisors and stakeholders to streamline
+							operational workflows.
+						</li>
+						<li>
+							Documented meeting minutes with precision to ensure accountability and track key
+							decisions across teams.
 						</li>
 					</ul>
 				</Card.Content>
