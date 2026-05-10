@@ -19,6 +19,8 @@
 		"@tailwindcss/typography": "^0.5.19",
 		"@tailwindcss/vite": "^4.2.2",
 		"@types/node": "^25.6.2",
+		"flowbite": "^4.0.1",
+		"flowbite-svelte": "^1.33.1",
 		"svelte": "^5.55.2",
 		"svelte-check": "^4.4.6",
 		"tailwindcss": "^4.2.2",
