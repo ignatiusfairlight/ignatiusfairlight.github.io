@@ -7,9 +7,6 @@
 
 <svelte:head><link rel="icon"/></svelte:head>
 <Navbar>
-  <NavBrand href="/">
-    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Fairlight Center</span>
-  </NavBrand>
   <NavUl>
     <NavLi href="/dashboard">Dashboard</NavLi>
     <NavLi href="/admin-resume">Resume</NavLi>
