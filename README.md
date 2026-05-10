@@ -1,42 +1,26 @@
-# sv
+# Portfolio Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Here's my portfolio website where I showcase everything that I have done. I also added a blog section to talk about other things (it could be anything, as long as it interests me).
 
-## Creating a project
+<!--
+## Live Website
 
-If you're seeing this, you've probably already done this step. Congrats!
+ - [https://ignatiusfairlight.github.io]
+-->
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Features
 
-To recreate this project with the same configuration:
+- Project showcase with descriptions and tech stack
+- Responsive design for all screen sizes
+- Simple and clean layout for easy navigation
+- About Me section
+- Contact links (Email only for now)
 
-```sh
-# recreate this project
-pnpm dlx sv@0.15.3 create --template minimal --types ts --add tailwindcss="plugins:typography,forms" sveltekit-adapter="adapter:static" --install pnpm .
-```
+## Tech Stack
 
-## Developing
+- **Framework**: [SvelteKit](https://kit.svelte.dev/)
+- **Styling**: Tailwind CSS
+- **Deployment**: GitHub Pages & Supabase
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Motivation
+I built this portfolio to have a personal space to share my work, practice web development, and make it easier for others to learn more about me.
