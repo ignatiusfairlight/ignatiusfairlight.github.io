@@ -19,5 +19,5 @@ This is my portfolio website. It is my own corner of the internet where I showca
 ## Tech Stack
 
 - **Framework**: [SvelteKit](https://kit.svelte.dev/)
-- **Styling**: Tailwind CSS
+- **Styling**: Tailwind CSS & Flowbite-Svelte UI Library
 - **Deployment**: GitHub Pages & Supabase
