@@ -1,24 +1,24 @@
 <script lang="ts">
 	import './layout.css';
-	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from "flowbite-svelte";
-	import favicon from '$lib/assets/favicon.svg';
+	import { Navbar, NavBrand, NavLi, NavUl } from "flowbite-svelte";
 
 	let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head><link rel="icon"/></svelte:head>
 <Navbar>
   <NavBrand href="/">
-    <img src="/images/flowbite-svelte-icon-logo.svg" class="me-3 h-6 sm:h-9" alt="Flowbite Logo" />
-    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Fairlight</span>
   </NavBrand>
-  <NavHamburger />
   <NavUl>
-    <NavLi href="/">Home</NavLi>
-    <NavLi href="/about">About</NavLi>
-    <NavLi href="/docs/components/navbar">Navbar</NavLi>
-    <NavLi href="/pricing">Pricing</NavLi>
-    <NavLi href="/contact">Contact</NavLi>
+    <NavLi href="/about">About Me</NavLi>
+    <NavLi href="/resume">Resume</NavLi>
+    <NavLi href="/projects">Projects</NavLi>
+    <NavLi href="/blog">Blog</NavLi>
+    <NavLi href="/contact">Contact Me</NavLi>
   </NavUl>
 </Navbar>
-{@render children()}
+<main>
+  {@render children()}
+</main>
+
