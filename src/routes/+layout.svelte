@@ -5,7 +5,7 @@
     import type { LayoutProps } from "./$types";
     import {
         Content,
-        Grid,
+        Stack,
         Header,
         SideNav,
         SideNavItems,
@@ -34,8 +34,9 @@
 </SideNav>
 
 <Content>
-    <Grid>
+    <Stack gap={6}>
         {@render children()}
-    </Grid>  
+    </Stack>
 </Content>
+
 
