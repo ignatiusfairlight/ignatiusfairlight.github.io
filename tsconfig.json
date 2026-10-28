@@ -1,7 +1,8 @@
 {
 	"extends": "$app/tsconfig",
 	"compilerOptions": {
-		"strict": true
+		"moduleResolution": "bundler",
+		"module": "esnext"
 	},
 	"include": ["src", "vite.config.ts"]
 }
