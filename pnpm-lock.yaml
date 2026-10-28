@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      carbon-components-svelte:
+        specifier: ^0.113.1
+        version: 0.113.1
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^8.0.0
@@ -58,6 +62,10 @@ packages:
 
   '@blazediff/core@1.9.1':
     resolution: {integrity: sha512-ehg3jIkYKulZh+8om/O25vkvSsXXwC+skXmyA87FFx6A/45eqOkZsBltMw/TVteb0mloiGT8oGRTcjRAz66zaA==}
+
+  '@ibm/telemetry-js@1.12.0':
+    resolution: {integrity: sha512-tNgmk2k8loNDTnPInlu7yMP9YOCr9UMwSnXN7SCEsGIV8xHfTawhXlDnp1PV0Lbv+2GoLQKSgkShlJeGPi4jTg==}
+    hasBin: true
 
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
@@ -396,6 +404,9 @@ packages:
     resolution: {integrity: sha512-qIj0G9wZbMGNLjLmg1PT6v2mE9AH2zlnADJD/2tC6E00hgmhUOfEB6greHPAfLRSufHqROIUTkw6E+M3lH0PTQ==}
     engines: {node: '>= 0.4'}
 
+  carbon-components-svelte@0.113.1:
+    resolution: {integrity: sha512-RAQhRAZkDkH/aEo49WHI/wUg6boHg13eypjKaykeqQULyZ4DLqkiLKrs1uHxhmDtMIugXoCBSAm10vHBjY70tQ==}
+
   chai@6.3.0:
     resolution: {integrity: sha512-XWAtwJ6OHO+tj0EKCs0Y2UamnyOxseZWltU4x2U2wh8g4AigdjwvtUjvLP2tqkA/avxHEtzxNaqGq/YGNwckKg==}
     engines: {node: '>=18'}
@@ -464,6 +475,9 @@ packages:
     peerDependenciesMeta:
       picomatch:
         optional: true
+
+  flatpickr@4.6.13:
+    resolution: {integrity: sha512-97PMG/aywoYpB4IvbvUJi0RQi8vearvU0oov1WW3k0WZPBMrTQVqekSX5CjSG/M4Q3i6A/0FKXC7RyAoAUUSPw==}
 
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -888,6 +902,8 @@ snapshots:
 
   '@blazediff/core@1.9.1': {}
 
+  '@ibm/telemetry-js@1.12.0': {}
+
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
       '@jridgewell/sourcemap-codec': 1.6.0
@@ -1165,6 +1181,11 @@ snapshots:
 
   axobject-query@4.1.0: {}
 
+  carbon-components-svelte@0.113.1:
+    dependencies:
+      '@ibm/telemetry-js': 1.12.0
+      flatpickr: 4.6.13
+
   chai@6.3.0: {}
 
   chokidar@4.0.3:
@@ -1207,6 +1228,8 @@ snapshots:
   fdir@6.5.0(picomatch@4.0.7):
     optionalDependencies:
       picomatch: 4.0.7
+
+  flatpickr@4.6.13: {}
 
   fsevents@2.3.3:
     optional: true
