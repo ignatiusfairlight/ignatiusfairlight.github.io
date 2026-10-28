@@ -23,7 +23,7 @@
     <header class="m-5">Ignatius Fairlight</header>
 
     <aside>
-        <div class="w-full h-[728px] grid grid-cols-[auto_1fr] items-stretch">
+        <div class="w-full min-h-[728px] grid grid-cols-[auto_1fr] items-stretch">
             <!-- -->
             <Navigation
                 layout="sidebar"
@@ -40,17 +40,18 @@
                 </Navigation.Content>
             </Navigation>
             <!-- -->
-            <main class="flex justify-center items-center">
+            <div class="flex flex-col justify-center items-center">
                 {@render children()}
-            </main>
+            </div>
         </div>
     </aside>
-
-    <footer class="text-sm text-gray-400 px-2 flex justify-between items-center">
+    <footer
+        class="text-sm text-gray-400 my-5 flex justify-between items-center"
+    >
         <div>© 2026 Ignatius Fairlight.</div>
         <div class="flex gap-3 items-center justify-end">
             <a title="Email Address" href="mailto:lawaierang@gmail.com">
-                <Mail class="size-5"/>
+                <Mail class="size-5" />
             </a>
             <a
                 title="GitHub Profile"
