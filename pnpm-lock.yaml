@@ -11,6 +11,12 @@ importers:
       carbon-components-svelte:
         specifier: ^0.113.1
         version: 0.113.1
+      carbon-icons-svelte:
+        specifier: ^13.17.0
+        version: 13.17.0
+      carbon-pictograms-svelte:
+        specifier: ^13.21.0
+        version: 13.21.0
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^8.0.0
@@ -406,6 +412,12 @@ packages:
 
   carbon-components-svelte@0.113.1:
     resolution: {integrity: sha512-RAQhRAZkDkH/aEo49WHI/wUg6boHg13eypjKaykeqQULyZ4DLqkiLKrs1uHxhmDtMIugXoCBSAm10vHBjY70tQ==}
+
+  carbon-icons-svelte@13.17.0:
+    resolution: {integrity: sha512-lFpkXDgkOupXQ/SVw3ZORH4vY5+abNYrm5s/9PB1cni45wnpIE3eXdcqgdM5znj+tWdkurwHcY6IUBMmosP5nw==}
+
+  carbon-pictograms-svelte@13.21.0:
+    resolution: {integrity: sha512-CfIPP1HrqAwrrmTzESDAwLAIxUK7Hw18IJARKYDPnAbxAf/I75TTKd+ZUziz8YkV0Jt4KWZ2NgV7n4fAqNNEng==}
 
   chai@6.3.0:
     resolution: {integrity: sha512-XWAtwJ6OHO+tj0EKCs0Y2UamnyOxseZWltU4x2U2wh8g4AigdjwvtUjvLP2tqkA/avxHEtzxNaqGq/YGNwckKg==}
@@ -1185,6 +1197,10 @@ snapshots:
     dependencies:
       '@ibm/telemetry-js': 1.12.0
       flatpickr: 4.6.13
+
+  carbon-icons-svelte@13.17.0: {}
+
+  carbon-pictograms-svelte@13.21.0: {}
 
   chai@6.3.0: {}
 
