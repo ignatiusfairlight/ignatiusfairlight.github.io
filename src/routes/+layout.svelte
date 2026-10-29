@@ -19,15 +19,14 @@
     <link rel="icon" href={favicon} />
 </svelte:head>
 
-<div class="my-15 mx-100">
-    <header class="m-5">Ignatius Fairlight</header>
+<div class="min-h-dvh px-100 py-50 flex flex-col">
+    <header class="w-full p-2">Ignatius Fairlight</header>
 
-    <aside>
-        <div class="w-full min-h-[728px] grid grid-cols-[auto_1fr] items-stretch">
-            <!-- -->
+    <main class="grid grid-cols-[1fr_3fr] w-full min-h-[50dvh] p-2 gap-4">
+        <aside>
             <Navigation
                 layout="sidebar"
-                class="grid grid-rows-[auto_auto_1fr] gap-4 bg-transparent"
+                class="grid grid-rows-[10px_10px_auto] gap-4 bg-transparent justify-start"
             >
                 <Navigation.Content class="place-content-around">
                     {#each links as link (link)}
@@ -39,17 +38,13 @@
                     {/each}
                 </Navigation.Content>
             </Navigation>
-            <!-- -->
-            <div class="flex flex-col justify-center items-center">
-                {@render children()}
-            </div>
-        </div>
-    </aside>
-    <footer
-        class="text-sm text-gray-400 my-5 flex justify-between items-center"
-    >
+        </aside>
+        <section class="p-5">{@render children()}</section>
+    </main>
+
+    <footer class="w-full flex justify-between p-2">
         <div>© 2026 Ignatius Fairlight.</div>
-        <div class="flex gap-3 items-center justify-end">
+        <div class="flex gap-3 justify-end">
             <a title="Email Address" href="mailto:lawaierang@gmail.com">
                 <Mail class="size-5" />
             </a>
