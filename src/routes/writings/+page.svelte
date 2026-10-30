@@ -4,7 +4,7 @@
     const tableData = $derived(data.tableData);
 </script>
 
-<div class="card p-4 table-wrap">
+<div class="card table-wrap">
     <table class="table caption-bottom">
         <tbody class="[&>tr]:hover:preset-tonal-brand">
             {#each tableData as row (row.title)}
