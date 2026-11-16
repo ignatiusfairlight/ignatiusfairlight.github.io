@@ -9,7 +9,6 @@
     const links = [
         { label: "About", href: "/" },
         { label: "Projects", href: "/projects" },
-        { label: "Writings", href: "/writings" },
     ];
 
     let { children }: LayoutProps = $props();
@@ -19,16 +18,15 @@
     <link rel="icon" href={favicon} />
 </svelte:head>
 
-<div class="min-h-dvh px-100 py-50 flex flex-col">
-    <header class="w-full p-2">Ignatius Fairlight</header>
+<div>
+    <header><a href="/">Ignatius Fairlight</a></header>
 
-    <main class="grid grid-cols-[1fr_3fr] w-full min-h-[50dvh] p-2 gap-4">
+    <main>
         <aside>
             <Navigation
                 layout="sidebar"
-                class="grid grid-rows-[10px_10px_auto] gap-4 bg-transparent justify-start"
             >
-                <Navigation.Content class="place-content-around">
+                <Navigation.Content>
                     {#each links as link (link)}
                         <Navigation.TriggerAnchor href={link.href}>
                             <Navigation.TriggerText
@@ -42,11 +40,11 @@
         <section class="p-5">{@render children()}</section>
     </main>
 
-    <footer class="w-full flex justify-between p-2">
+    <footer>
         <div>© 2026 Ignatius Fairlight.</div>
-        <div class="flex gap-3 justify-end">
+        <div>
             <a title="Email Address" href="mailto:lawaierang@gmail.com">
-                <Mail class="size-5" />
+                <Mail />
             </a>
             <a
                 title="GitHub Profile"

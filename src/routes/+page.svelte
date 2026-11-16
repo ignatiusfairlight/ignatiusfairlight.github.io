@@ -1,3 +1,4 @@
+<!-- This should be replaced with my own about me -->
 <p>
     Hi, I’m Daniel Whitfield. I’m a full-stack developer based in Portland,
     Oregon, with 6 years of experience building web applications for startups
