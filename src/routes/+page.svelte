@@ -1,3 +1,8 @@
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maxime sunt debitis,
-reprehenderit eligendi est voluptatum atque voluptate temporibus quia, adipisci magni ipsa corporis
-nostrum cum recusandae et hic architecto!
+I'm Bryan Erang Lawai but I go with Ignatius Fairlight as my online alias. I'm a software developer
+in Miri, Sarawak.
+<br />
+<br />
+I've developed both web applications and desktop application.
+<br />
+<br />
+Wow, I got nothing interesting going on for me, huh.
