@@ -17,7 +17,7 @@
 	<nav class="flex ml-5 my-2">
 		<Navbar />
 	</nav>
-	<main class="my-5 min-h-[40dvh]">
+	<main class="py-10 min-h-[40dvh]">
 		{@render children()}
 	</main>
 	<footer>
