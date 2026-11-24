@@ -8,7 +8,7 @@
 	let { children }: LayoutProps = $props();
 </script>
 
-<div class="w-full max-w-3xl mx-auto px-10 sm:px-12 lg:px-14 mt-25">
+<div class="w-full max-w-3xl mx-auto px-10 sm:px-12 lg:px-14 pt-25">
 	<ModeWatcher />
 	<header class="flex mb-10 justify-between">
 		<a href="/">Ignatius Fairlight</a>
@@ -17,7 +17,7 @@
 	<nav class="flex ml-5 my-2">
 		<Navbar />
 	</nav>
-	<main class="my-5 min-h-[50dvh]">
+	<main class="my-5 min-h-[40dvh]">
 		{@render children()}
 	</main>
 	<footer>
