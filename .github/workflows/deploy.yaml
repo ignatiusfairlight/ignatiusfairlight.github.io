@@ -26,7 +26,7 @@ jobs:
           cache: npm
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v
+        uses: pnpm/action-setup@v6
         with:
           version: latest
 
