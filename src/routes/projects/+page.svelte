@@ -11,7 +11,7 @@
 				<Card.Description>{Project.desc}</Card.Description>
 			</Card.Header>
 			<Card.Content>
-				<p>{Project.content}</p>
+				<p><a href={Project.link}>Github</a></p>
 			</Card.Content>
 		</Card.Root>
 	{/each}
